@@ -625,3 +625,170 @@ Global symbol "$i" requires explicit package name at template "example/music.htm
 [Mon Jun 22 20:26:17 2015] [debug] Rendering inline template.
 [Mon Jun 22 20:26:17 2015] [debug] Rendering inline template.
 [Mon Jun 22 20:26:17 2015] [debug] 500 Internal Server Error (0.375246s, 2.665/s).
+[Tue Jun 23 00:04:05 2015] [debug] Your secret passphrase needs to be changed
+[Tue Jun 23 00:04:05 2015] [debug] GET "/"
+[Tue Jun 23 00:04:05 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Jun 23 00:04:05 2015] [debug] Template "not_found.html.ep" not found
+[Tue Jun 23 00:04:05 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Jun 23 00:04:05 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Jun 23 00:04:05 2015] [debug] 404 Not Found (0.022617s, 44.215/s)
+[Tue Jun 23 00:04:10 2015] [debug] GET "/music"
+[Tue Jun 23 00:04:10 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:04:10 2015] [debug] Rendering template "example/music.html.ep"
+[Tue Jun 23 00:04:10 2015] [error] Can't find string terminator '"' anywhere before EOF at template example/music.html.ep line 19.
+
+[Tue Jun 23 00:04:10 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Jun 23 00:04:10 2015] [debug] Template "exception.html.ep" not found
+[Tue Jun 23 00:04:10 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Jun 23 00:04:10 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Jun 23 00:04:10 2015] [debug] 500 Internal Server Error (0.030416s, 32.877/s)
+[Tue Jun 23 00:05:30 2015] [debug] Your secret passphrase needs to be changed
+[Tue Jun 23 00:05:30 2015] [debug] GET "/music"
+[Tue Jun 23 00:05:30 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:05:30 2015] [debug] Rendering template "example/music.html.ep"
+[Tue Jun 23 00:05:30 2015] [error] Can't find string terminator '"' anywhere before EOF at template example/music.html.ep line 19, <DATA> line 2231.
+
+[Tue Jun 23 00:05:30 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Jun 23 00:05:30 2015] [debug] Template "exception.html.ep" not found
+[Tue Jun 23 00:05:30 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Jun 23 00:05:30 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Jun 23 00:05:30 2015] [debug] 500 Internal Server Error (0.027849s, 35.908/s)
+[Tue Jun 23 00:06:30 2015] [debug] Your secret passphrase needs to be changed
+[Tue Jun 23 00:06:30 2015] [debug] GET "/music"
+[Tue Jun 23 00:06:30 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:06:30 2015] [debug] Rendering template "example/music.html.ep"
+[Tue Jun 23 00:06:30 2015] [debug] Rendering template "layouts/default.html.ep"
+[Tue Jun 23 00:06:30 2015] [debug] 200 OK (0.006605s, 151.400/s)
+[Tue Jun 23 00:06:31 2015] [debug] GET "/music"
+[Tue Jun 23 00:06:31 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:06:31 2015] [debug] Rendering cached template "example/music.html.ep"
+[Tue Jun 23 00:06:31 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Jun 23 00:06:31 2015] [debug] 200 OK (0.002915s, 343.053/s)
+[Tue Jun 23 00:06:34 2015] [debug] GET "/music"
+[Tue Jun 23 00:06:34 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:06:34 2015] [debug] Rendering cached template "example/music.html.ep"
+[Tue Jun 23 00:06:34 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Jun 23 00:06:34 2015] [debug] 200 OK (0.001642s, 609.013/s)
+[Tue Jun 23 00:06:35 2015] [debug] Your secret passphrase needs to be changed
+[Tue Jun 23 00:06:35 2015] [debug] GET "/music"
+[Tue Jun 23 00:06:35 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:06:35 2015] [debug] Rendering template "example/music.html.ep"
+[Tue Jun 23 00:06:35 2015] [error] Can't find string terminator '"' anywhere before EOF at template example/music.html.ep line 19.
+
+[Tue Jun 23 00:06:35 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Jun 23 00:06:35 2015] [debug] Template "exception.html.ep" not found
+[Tue Jun 23 00:06:35 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Jun 23 00:06:35 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Jun 23 00:06:35 2015] [debug] 500 Internal Server Error (0.026841s, 37.256/s)
+[Tue Jun 23 00:06:35 2015] [debug] GET "/music"
+[Tue Jun 23 00:06:35 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:06:35 2015] [debug] Rendering template "example/music.html.ep"
+[Tue Jun 23 00:06:35 2015] [error] Can't find string terminator '"' anywhere before EOF at template example/music.html.ep line 19.
+
+[Tue Jun 23 00:06:35 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Jun 23 00:06:35 2015] [debug] Template "exception.html.ep" not found
+[Tue Jun 23 00:06:35 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Jun 23 00:06:35 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Jun 23 00:06:35 2015] [debug] 500 Internal Server Error (0.010407s, 96.089/s)
+[Tue Jun 23 00:06:36 2015] [debug] GET "/music"
+[Tue Jun 23 00:06:36 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:06:36 2015] [debug] Rendering template "example/music.html.ep"
+[Tue Jun 23 00:06:36 2015] [error] Can't find string terminator '"' anywhere before EOF at template example/music.html.ep line 19.
+
+[Tue Jun 23 00:06:36 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Jun 23 00:06:36 2015] [debug] Template "exception.html.ep" not found
+[Tue Jun 23 00:06:36 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Jun 23 00:06:36 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Jun 23 00:06:36 2015] [debug] 500 Internal Server Error (0.009905s, 100.959/s)
+[Tue Jun 23 00:06:36 2015] [debug] GET "/music"
+[Tue Jun 23 00:06:36 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:06:36 2015] [debug] Rendering template "example/music.html.ep"
+[Tue Jun 23 00:06:36 2015] [error] Can't find string terminator '"' anywhere before EOF at template example/music.html.ep line 19.
+
+[Tue Jun 23 00:06:36 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Jun 23 00:06:36 2015] [debug] Template "exception.html.ep" not found
+[Tue Jun 23 00:06:36 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Jun 23 00:06:36 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Jun 23 00:06:36 2015] [debug] 500 Internal Server Error (0.009275s, 107.817/s)
+[Tue Jun 23 00:06:37 2015] [debug] GET "/music"
+[Tue Jun 23 00:06:37 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:06:37 2015] [debug] Rendering template "example/music.html.ep"
+[Tue Jun 23 00:06:37 2015] [error] Can't find string terminator '"' anywhere before EOF at template example/music.html.ep line 19.
+
+[Tue Jun 23 00:06:37 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Jun 23 00:06:37 2015] [debug] Template "exception.html.ep" not found
+[Tue Jun 23 00:06:37 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Jun 23 00:06:37 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Jun 23 00:06:37 2015] [debug] 500 Internal Server Error (0.008324s, 120.135/s)
+[Tue Jun 23 00:06:42 2015] [debug] GET "/music"
+[Tue Jun 23 00:06:42 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:06:42 2015] [debug] Rendering template "example/music.html.ep"
+[Tue Jun 23 00:06:42 2015] [debug] Rendering template "layouts/default.html.ep"
+[Tue Jun 23 00:06:42 2015] [debug] 200 OK (0.003576s, 279.642/s)
+[Tue Jun 23 00:06:42 2015] [debug] Your secret passphrase needs to be changed
+[Tue Jun 23 00:06:42 2015] [debug] GET "/music"
+[Tue Jun 23 00:06:42 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:06:42 2015] [debug] Rendering template "example/music.html.ep"
+[Tue Jun 23 00:06:42 2015] [debug] Rendering template "layouts/default.html.ep"
+[Tue Jun 23 00:06:42 2015] [debug] 200 OK (0.006381s, 156.715/s)
+[Tue Jun 23 00:06:43 2015] [debug] GET "/music"
+[Tue Jun 23 00:06:43 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:06:43 2015] [debug] Rendering cached template "example/music.html.ep"
+[Tue Jun 23 00:06:43 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Jun 23 00:06:43 2015] [debug] 200 OK (0.001968s, 508.130/s)
+[Tue Jun 23 00:08:07 2015] [debug] Your secret passphrase needs to be changed
+[Tue Jun 23 00:08:07 2015] [debug] GET "/music"
+[Tue Jun 23 00:08:07 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:08:07 2015] [debug] Rendering template "example/music.html.ep"
+[Tue Jun 23 00:08:07 2015] [debug] Rendering template "layouts/default.html.ep"
+[Tue Jun 23 00:08:07 2015] [debug] 200 OK (0.005773s, 173.220/s)
+[Tue Jun 23 00:08:09 2015] [debug] GET "/music"
+[Tue Jun 23 00:08:09 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:08:09 2015] [debug] Rendering cached template "example/music.html.ep"
+[Tue Jun 23 00:08:09 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Jun 23 00:08:09 2015] [debug] 200 OK (0.001399s, 714.796/s)
+[Tue Jun 23 00:08:17 2015] [debug] GET "/music"
+[Tue Jun 23 00:08:17 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:08:17 2015] [debug] Rendering cached template "example/music.html.ep"
+[Tue Jun 23 00:08:17 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Jun 23 00:08:17 2015] [debug] 200 OK (0.001446s, 691.563/s)
+[Tue Jun 23 00:08:18 2015] [debug] GET "/music"
+[Tue Jun 23 00:08:18 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:08:18 2015] [debug] Rendering cached template "example/music.html.ep"
+[Tue Jun 23 00:08:18 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Jun 23 00:08:18 2015] [debug] 200 OK (0.001638s, 610.501/s)
+[Tue Jun 23 00:08:23 2015] [debug] GET "/music"
+[Tue Jun 23 00:08:23 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:08:23 2015] [debug] Rendering cached template "example/music.html.ep"
+[Tue Jun 23 00:08:23 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Jun 23 00:08:23 2015] [debug] 200 OK (0.001703s, 587.199/s)
+[Tue Jun 23 00:08:24 2015] [debug] GET "/music"
+[Tue Jun 23 00:08:24 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:08:24 2015] [debug] Rendering cached template "example/music.html.ep"
+[Tue Jun 23 00:08:24 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Jun 23 00:08:24 2015] [debug] 200 OK (0.001547s, 646.412/s)
+[Tue Jun 23 00:08:27 2015] [debug] GET "/music"
+[Tue Jun 23 00:08:27 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:08:27 2015] [debug] Rendering cached template "example/music.html.ep"
+[Tue Jun 23 00:08:27 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Jun 23 00:08:27 2015] [debug] 200 OK (0.001805s, 554.017/s)
+[Tue Jun 23 00:08:36 2015] [debug] GET "/music"
+[Tue Jun 23 00:08:36 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:08:36 2015] [debug] Rendering cached template "example/music.html.ep"
+[Tue Jun 23 00:08:36 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Jun 23 00:08:36 2015] [debug] 200 OK (0.001464s, 683.060/s)
+[Tue Jun 23 00:08:49 2015] [debug] GET "/music"
+[Tue Jun 23 00:08:49 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:08:49 2015] [debug] Rendering cached template "example/music.html.ep"
+[Tue Jun 23 00:08:49 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Jun 23 00:08:49 2015] [debug] 200 OK (0.002613s, 382.702/s)
+[Tue Jun 23 00:08:50 2015] [debug] GET "/music"
+[Tue Jun 23 00:08:50 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:08:50 2015] [debug] Rendering cached template "example/music.html.ep"
+[Tue Jun 23 00:08:50 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Jun 23 00:08:50 2015] [debug] 200 OK (0.003993s, 250.438/s)
+[Tue Jun 23 00:08:59 2015] [debug] GET "/music"
+[Tue Jun 23 00:08:59 2015] [debug] Routing to controller "Pi::Example" and action "music"
+[Tue Jun 23 00:08:59 2015] [debug] Rendering cached template "example/music.html.ep"
+[Tue Jun 23 00:08:59 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Jun 23 00:08:59 2015] [debug] 200 OK (0.002189s, 456.830/s)
