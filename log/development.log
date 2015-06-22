@@ -601,3 +601,27 @@ Global symbol "$i" requires explicit package name at template "example/music.htm
 [Mon Jun 22 20:15:04 2015] [debug] Rendering inline template.
 [Mon Jun 22 20:15:04 2015] [debug] Rendering inline template.
 [Mon Jun 22 20:15:05 2015] [debug] 500 Internal Server Error (0.388065s, 2.577/s).
+[Mon Jun 22 20:24:34 2015] [info] Listening at "http://*:3000".
+[Mon Jun 22 20:24:43 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jun 22 20:24:43 2015] [debug] GET /music (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36).
+[Mon Jun 22 20:24:43 2015] [debug] Routing to controller "Pi::Example" and action "music".
+[Mon Jun 22 20:24:43 2015] [debug] Rendering template "example/music.html.ep".
+[Mon Jun 22 20:24:43 2015] [error] Search pattern not terminated at (eval 247) line 14.
+
+[Mon Jun 22 20:24:43 2015] [debug] Template "exception.development.html.ep" not found.
+[Mon Jun 22 20:24:43 2015] [debug] Template "exception.html.ep" not found.
+[Mon Jun 22 20:24:43 2015] [debug] Rendering inline template.
+[Mon Jun 22 20:24:43 2015] [debug] Rendering inline template.
+[Mon Jun 22 20:24:43 2015] [debug] 500 Internal Server Error (0.393547s, 2.541/s).
+[Mon Jun 22 20:26:13 2015] [info] Listening at "http://*:3000".
+[Mon Jun 22 20:26:16 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jun 22 20:26:16 2015] [debug] GET /music (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36).
+[Mon Jun 22 20:26:16 2015] [debug] Routing to controller "Pi::Example" and action "music".
+[Mon Jun 22 20:26:16 2015] [debug] Rendering template "example/music.html.ep".
+[Mon Jun 22 20:26:17 2015] [error] Search pattern not terminated at (eval 247) line 14.
+
+[Mon Jun 22 20:26:17 2015] [debug] Template "exception.development.html.ep" not found.
+[Mon Jun 22 20:26:17 2015] [debug] Template "exception.html.ep" not found.
+[Mon Jun 22 20:26:17 2015] [debug] Rendering inline template.
+[Mon Jun 22 20:26:17 2015] [debug] Rendering inline template.
+[Mon Jun 22 20:26:17 2015] [debug] 500 Internal Server Error (0.375246s, 2.665/s).
