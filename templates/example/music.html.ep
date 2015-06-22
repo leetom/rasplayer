@@ -1,0 +1,18 @@
+% layout 'default';
+% title 'Music';
+
+%= stylesheet '/style.css'
+% my @name = (0, "渺小");
+<p>
+<ul>
+% for my $i (1..10) {
+ <li><a href="?track=<%= $i %>">
+ % if($name[$i]){
+     %= $name[$i];
+ % }else {
+     %= $i;
+ % }</a></li>
+% }
+ <li><a href="/stop">Stop</a></li>
+</ul>
+</p>
