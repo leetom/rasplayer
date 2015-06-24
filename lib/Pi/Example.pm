@@ -16,7 +16,7 @@ sub music {
 
     if($id){
         # there is sound to play
-        my @arg = ("/home/leetom/Music/player.pl", $id);
+        my @arg = ("../../music/player.pl", $id);
         system(@arg) == 0 or die("error play file @arg");
 
         $self->redirect_to("/music");

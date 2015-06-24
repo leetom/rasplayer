@@ -3,7 +3,7 @@
 
 my $id = $ARGV[0];
 
-my $dir = "/home/leetom/Music/";
+my $dir = "./";
 
 my $file = $dir . $id . ".mp3";
 
