@@ -2,7 +2,6 @@ package Pi::Example;
 use Mojo::Base 'Mojolicious::Controller';
 use Scalar::Util qw(looks_like_number);
 use utf8;
-use Data::Printer;
 
 # This action will render a template
 sub welcome {
