@@ -3,21 +3,22 @@
 
 my $id = $ARGV[0];
 
-my $dir = "./";
+my $dir = "./music/";
+
 
 my $file = $dir . $id . ".mp3";
 
 if (-f $file){
     &play_file($id);
 }else{
-    die("file not found, $file, \n");
+    # file not found
+    return -1;
 }
 
 
 sub play_file {
-    print system("pkill mpg123");
-    print "now start playing \n";
-    system("mpg123 -q $file &") == 0 or die "failed to player $?";
+    system("pkill mpg123");
+    system("mpg123 -q '$file' &") == 0 or die "failed to player $?";
 }
 
 0;
